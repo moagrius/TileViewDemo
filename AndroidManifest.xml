@@ -25,6 +25,7 @@
         <activity android:name="com.qozix.LargeImageTileViewActivity" />
         <activity android:name="com.qozix.BuildingPlansTileViewActivity" />
         <activity android:name="com.qozix.RealMapTileViewActivity" />
+        <activity android:name="com.qozix.RealMapCustomPathTileViewActivity" />
         <activity android:name="com.qozix.FictionalMapTileViewActivity" />
     </application>
 
