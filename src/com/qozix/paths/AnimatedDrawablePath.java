@@ -56,7 +56,7 @@ public class AnimatedDrawablePath extends SolidDrawablePath
 
         // toggle back and forth
         // this is a simple animation, it certainly can be changed and/or improved
-        this.mPhase -= 10;
+        this.mPhase -= 20;
 
         canvas.drawPath(translatedPath, this.getPaint());
     }
