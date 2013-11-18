@@ -5,65 +5,74 @@
     tools:context=".TileViewDemoActivity" >
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
-    	android:layout_height="wrap_content">
-        
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
         <TextView
-            android:padding="20dp"
             android:id="@+id/show_image"
             android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:textSize="20sp"
-    		android:gravity="center"
-    		android:text="Large Image" />
-        
-        <View 
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Large Image"
+            android:textSize="20sp" />
+
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#FFCCCCCC"
-            />
-        
+            android:background="#FFCCCCCC" />
+
         <TextView
-            android:padding="20dp"
             android:id="@+id/show_plans"
             android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:textSize="20sp"
-    		android:gravity="center"
-    		android:text="Building Plans" />
-        
-        <View 
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Building Plans"
+            android:textSize="20sp" />
+
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#FFCCCCCC"
-            />
-        
+            android:background="#FFCCCCCC" />
+
         <TextView
-            android:padding="20dp"
             android:id="@+id/show_fiction"
             android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:textSize="20sp"
-    		android:gravity="center"
-    		android:text="Fictional Map" />
-        
-        <View 
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Fictional Map"
+            android:textSize="20sp" />
+
+        <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="#FFCCCCCC"
-            />
-        
+            android:background="#FFCCCCCC" />
+
         <TextView
-            android:padding="20dp"
             android:id="@+id/show_map"
             android:layout_width="match_parent"
-    		android:layout_height="wrap_content"
-    		android:textSize="20sp"
-    		android:gravity="center"
-    		android:text="Real Map" />
-        
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Real Map"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFCCCCCC" />
+
+        <TextView
+            android:id="@+id/show_map_custom_paths"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Real Map - Custom Paths"
+            android:textSize="20sp" />
     </LinearLayout>
-    
 
 </ScrollView>
